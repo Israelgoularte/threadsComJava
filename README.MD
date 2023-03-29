@@ -62,7 +62,7 @@ Instruções de uso:
         (arq1, arq2 .... arq1000).txt deve estar localizado no mesmo diretorio para
         que funcione.
         Caso queria adicionar novos arquivos basta usar a classe CriarArquivos.java que
-        estar no diretorio \complementar
+        esta no diretorio \complementar
             Esta classe possui um metodo static com os paramentros 
                 String diretorio (deve ser fornecido o direto onde vai ser criado 
                 os arquivos),
