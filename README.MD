@@ -47,7 +47,7 @@ Problemas resolvidos por essa aplicação:
             A main (Main.java) vai acionar os dois modelos usando Threads e não utilizando
             e trazer o tempo de execução de cada um.
 
-    Ao final deste arquivo, notas sobre execução do problema 3 (menu inicial opção 3)
+    Abaixo neste arquivo, notas sobre execução do problema 3 (menu inicial opção 3)
     e especificações do computador utilizado para teste.
 
 ---
@@ -107,6 +107,8 @@ Oque e uma Thread:
     várias threads em paralelo pode melhorar a performance do programa e permitir a implementação 
     de programas interativos. No entanto, o uso de threads também pode trazer desvantagens em 
     termos de complexidade, sincronização, overhead e consumo de recursos.
+
+---
 
 Vantagens:
 
