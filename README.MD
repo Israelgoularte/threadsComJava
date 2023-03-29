@@ -2,6 +2,21 @@ Desenvolvido por Israel Goularte
 
 ---
 
+Sumario:
+
+    Problemas resolvidos por essa aplicação
+    Intruções de uso
+    Notas de execução
+    Expecificações do Computador de Teste
+    Oque e Thread
+    Vantagens
+    Desvantagens
+    Quando usar
+    Threads em java.
+
+
+---
+
 Problemas resolvidos por essa aplicação: 
 
     1 -> Escreva um programa Java que lê todos os arquivos .TXT de uma pasta
@@ -83,3 +98,103 @@ ESPECIFICAÇÕES DO COMPUTADOR DE TESTE:
 
     Computador: i5 10º Geração 8gb Ram 3200 GTX 1650 4gb SSD NVME
 
+---
+
+Oque e uma Thread:
+
+    Basicamente, Threads são unidades básicas de execução de um programa que podem ser executadas 
+    de forma concorrente e independente, definidas por um conjunto de recursos. A execução de 
+    várias threads em paralelo pode melhorar a performance do programa e permitir a implementação 
+    de programas interativos. No entanto, o uso de threads também pode trazer desvantagens em 
+    termos de complexidade, sincronização, overhead e consumo de recursos.
+
+Vantagens:
+
+    Paralelismo: permite a execução simultânea de várias tarefas em diferentes
+    núcleos do processador ou em diferentes processadores, aumentando a eficiência e reduzindo
+    o tempo total de processamento.
+
+    Aproveitamento de recursos: é possível aproveitar melhor os recursos do sistema,
+    como memória, processamento e entradas/saídas, permitindo que o programa execute mais
+    tarefas em menos tempo.
+
+    Responsividade: pode melhorar a responsividade do programa, permitindo que
+    o usuário interaja com a interface do programa enquanto outras tarefas são executadas em 
+    segundo plano.
+
+    Modularidade: é possível dividir o programa em módulos menores e independentes, 
+    facilitando a manutenção e o desenvolvimento do software.
+
+    Concorrência: permitem que vários processos concorram por recursos do sistema, como 
+    memória, processamento e entradas/saídas, tornando a execução do programa mais dinâmica e 
+    eficiente.
+
+    Escalabilidade: permite que o programa seja escalado para trabalhar com 
+    grandes volumes de dados ou usuários, aumentando a capacidade de processamento e mantendo a 
+    performance do sistema.
+
+Em resumo, o uso de threads pode trazer benefícios significativos em termos de paralelismo, 
+aproveitamento de recursos, responsividade, modularidade, concorrência e escalabilidade, 
+tornando o programa mais eficiente e dinâmico.
+
+---
+
+Desvantagens:
+
+    Complexidade: pode tornar o programa mais complexo e difícil de ser desenvolvido, testado 
+    e mantido, especialmente em sistemas grandes e complexos.
+
+    Sincronização: pode levar a problemas de sincronização e concorrência, que podem causar 
+    condições de corrida, deadlocks, inanição e outros problemas difíceis de serem detectados 
+    e corrigidos.
+
+    Overhead: o uso de threads pode aumentar o overhead do sistema, ou seja, o tempo e recursos 
+    necessários para gerenciar as threads, o que pode afetar a performance geral do programa.
+
+    Consumo de recursos: pode consumir mais recursos do sistema, como memória, 
+    processamento e entradas/saídas, o que pode afetar a performance de outros processos e 
+    aplicativos que estão sendo executados no mesmo sistema.
+
+    Impossibilidade de paralelismo: algumas tarefas podem não ser paralelizáveis e, portanto, 
+    o uso de threads pode não trazer benefícios significativos em termos de performance.
+
+Em resumo, o uso de threads pode trazer desvantagens em termos de complexidade, sincronização, 
+overhead, consumo de recursos e impossibilidade de paralelismo. Portanto, o uso de threads deve 
+ser avaliado cuidadosamente em cada situação, levando em consideração as vantagens e desvantagens 
+e considerando outras alternativas de otimização de performance.
+
+---
+
+Quando usar Threads?
+
+    Deve ser avaliado cuidadosamente em cada situação, levando em consideração fatores como a 
+    complexidade das operações, a quantidade de recursos disponíveis, a capacidade de 
+    processamento do hardware e a possibilidade de problemas de sincronização e concorrência. 
+    O uso de threads pode ser vantajoso em situações de processamento paralelo, como no 
+    processamento de imagens em lotes, leitura e escrita de arquivos, execução de tarefas 
+    de rede ou operações matemáticas intensivas, mas pode não ser apropriado em operações 
+    sequenciais, programas com baixo processamento ou sistemas com recursos limitados.
+
+---
+
+Em Java, há várias bibliotecas disponíveis para uso de threads. Algumas das principais são:
+
+    java.lang.Thread: é a biblioteca padrão do Java para gerenciamento de threads. Ela 
+    permite criar, iniciar, interromper, aguardar e sincronizar threads.
+
+    java.util.concurrent: é uma biblioteca avançada do Java para programação concorrente. 
+    Ela fornece várias classes e interfaces para o gerenciamento de threads, como Executor, 
+    ExecutorService, Future e BlockingQueue.
+
+    java.util.concurrent.atomic: é uma sub-biblioteca da java.util.concurrent que fornece 
+    classes para operações atômicas em variáveis compartilhadas, como AtomicInteger, 
+    AtomicBoolean e AtomicReference.
+
+    java.util.concurrent.locks: é outra sub-biblioteca da java.util.concurrent que fornece 
+    classes para sincronização avançada de threads, como ReentrantLock, Condition e Semaphore.
+
+    java.util.concurrent.atomic: é uma biblioteca para programação funcional e reativa em 
+    Java, que inclui suporte a programação assíncrona e baseada em eventos.
+
+    Essas bibliotecas são amplamente utilizadas em projetos Java de diferentes tamanhos e 
+    complexidades, permitindo um melhor gerenciamento e uso de threads.
